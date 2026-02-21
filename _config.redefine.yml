@@ -25,11 +25,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: /img/avatar_cr.png
+  favicon: /images/avatar_cr.png
   # Site logo
   logo: 
   # Site avatar
-  avatar: /img/avatar_sq.png
+  avatar: /images/avatar_sq.png
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -99,7 +99,7 @@ global:
   # Whether to enable open graph
   open_graph:
     enable: true
-    image: /img/avatar.png
+    image: /images/avatar_sq.png
     description: MingyiPro's Blog
   # Google Analytics
   google_analytics:
@@ -131,8 +131,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /img/homepage_light.jpg
-    dark: /img/homepage_dark.jpg
+    light: /images/homepage_light.jpg
+    dark: /images/homepage_dark.jpg
   # Home banner title
   title: Life Goes On
   # Home banner subtitle
@@ -492,7 +492,7 @@ page_templates:
 # Docs: https://redefine-docs.ohevan.com/cdn
 cdn:
   # Whether to enable CDN
-  enable: false
+  enable: true
   # CDN Provider
   provider: npmmirror # npmmirror, zstatic, cdnjs, jsdelivr, unpkg, custom
   # Custom CDN URL
