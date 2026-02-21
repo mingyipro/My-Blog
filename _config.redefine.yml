@@ -11,13 +11,13 @@
 # Docs: https://redefine-docs.ohevan.com/basic/info
 info:
   # Site title
-  title: Theme Redefine
-  # Site subtitle
-  subtitle: Redefine Your Hexo Journey.
+  title: MingyiPro's Blog
+  # Subtitle
+  subtitle: Welcome!
   # Author name
-  author: The Redefine Team
+  author: Mingyi
   # Site URL
-  url: https://redefine.ohevan.com
+  url: https://www.mingyipro.top
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -25,11 +25,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: /images/redefine-favicon.svg
+  favicon: /img/avatar.png
   # Site logo
   logo: 
   # Site avatar
-  avatar: /images/redefine-avatar.svg
+  avatar: /img/avatar.png
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -37,7 +37,7 @@ defaults:
 # Docs: https://redefine-docs.ohevan.com/basic/colors
 colors:
   #Primary color
-  primary: "#A31F34"
+  primary: "#ffffff"
   # Secondary color (TBD)
   secondary:
   # Default theme mode initial value (will be overwritten by prefer-color-scheme)
@@ -72,15 +72,15 @@ global:
   # Effects on mouse hover
   hover:
     shadow: true # shadow effect
-    scale: false # scale effect
+    scale: true # scale effect
   # Scroll progress
   scroll_progress:
-    bar: false # progress bar
-    percentage: true # percentage
+    bar: true # progress bar
+    percentage: false # percentage
   # Website counter
   website_counter:
     url: https://cn.vercount.one/js # counter API URL (no need to change)
-    enable: true # enable website counter or not
+    enable: false # enable website counter or not
     site_pv: true # site page view
     site_uv: true # site unique visitor
     post_pv: true # post page view
@@ -88,8 +88,8 @@ global:
   single_page: true
   # Whether to enable Preloader.
   preloader:
-    enable: false
-    custom_message: # Custom message. If empty, the site title will be displayed
+    enable: true
+    custom_message: Just a minute...
   # Side tools settings
   side_tools:
     # Whether to enable gear rotation animation for settings button
@@ -99,8 +99,8 @@ global:
   # Whether to enable open graph
   open_graph:
     enable: true
-    image: /images/redefine-og.webp  # default og:image
-    description: Hexo Theme Redefine, Redefine Your Hexo Journey.
+    image: /img/avatar.png
+    description: MingyiPro's Blog
   # Google Analytics
   google_analytics:
     enable: false # Whether to enable Google Analytics
@@ -131,10 +131,10 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/wallhaven-wqery6-light.webp # light mode
-    dark: /images/wallhaven-wqery6-dark.webp # dark mode
+    light: /img/homepage_light.jpg
+    dark: /img/homepage_dark.jpg
   # Home banner title
-  title: Theme Redefine
+  title: Life Goes On
   # Home banner subtitle
   subtitle:
     text: [] # subtitle text, array
@@ -150,12 +150,12 @@ home_banner:
     smart_backspace: true # Whether to smart backspace
   # Color of home banner text
   text_color: 
-    light: "#fff" # light mode
-    dark: "#d1d1b6" # dark mode
+    light: "#000000" # light mode
+    dark: "#ffffff" # dark mode
   # Specific style of the text
   text_style: 
     # Title font size
-    title_size: 2.8rem
+    title_size: 3rem
     # Subtitle font size
     subtitle_size: 1.5rem
     # Line height between title and subtitle
@@ -199,7 +199,7 @@ home_banner:
 # Docs: https://redefine-docs.ohevan.com/home/navbar
 navbar:
   # Auto hide navbar
-  auto_hide: false
+  auto_hide: true
   # Navbar background color
   color:
     left: "#f78736" #left side 
@@ -214,19 +214,15 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house # can be empty
+    About: 
+      icon: fa-regular fa-user
+      path: /about/
     # Archives: 
     #   path: /archives 
     #   icon: fa-regular fa-archive # can be empty
     # Status: 
     #   path: https://status.ohevan.com/
     #   icon: fa-regular fa-chart-bar
-    # About: 
-    #   icon: fa-regular fa-user
-    #   submenus:
-    #     Me: /about
-    #     Github: https://github.com/EvanNotFound/hexo-theme-redefine
-    #     Blog: https://ohevan.com
-    #     Friends: /friends
     # Links: 
     #   icon: fa-regular fa-link
     #   submenus:
